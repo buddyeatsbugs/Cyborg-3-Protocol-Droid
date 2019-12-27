@@ -11,7 +11,8 @@ Hex
 Octal
 HTML Entity Encoding
 CRLF %0D %0A Bypasses
-Read the Manual F*cK Bypasses
+RFC Misimplementation bypasses
+Read the Manual Bypasses
 ```
 
 # Whats happening
