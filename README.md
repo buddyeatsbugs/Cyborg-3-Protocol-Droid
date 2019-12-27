@@ -14,8 +14,12 @@ CRLF %0D %0A Bypasses
 RFC Misimplementation bypasses
 Read the Manual Bypasses
 
-Camel Casing
+Camel Casing Bypasses
 Using Comments as Spaces
+Dynamic Query Execution ( 'SEL'||'ECT') , CHAR(83)+CHAR(69)+CHAR(76) , HEX(0x53454c45435) )
+Null Bytes Bypass
+Nested Expressions Bypass
+Truncation Bypass
 
 ```
 
@@ -63,4 +67,5 @@ Payload
 # References
 ```
 blog.innerht.ml
+https://www.youtube.com/watch?v=HhIEDWmQS3w
 ```
