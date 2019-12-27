@@ -3,7 +3,7 @@
 # Bypasses
 ```
 URL Encoding
-URL Double Encoding
+Double URL Encoding
 UTF-8 Unicode Encoding
 UTF-16 Unicode Encoding
 Cyrillic Language Unicode Encoding
@@ -13,6 +13,10 @@ HTML Entity Encoding
 CRLF %0D %0A Bypasses
 RFC Misimplementation bypasses
 Read the Manual Bypasses
+
+Camel Casing
+Using Comments as Spaces
+
 ```
 
 # Whats happening
@@ -30,6 +34,13 @@ Decoded Value                    56 0A
 
 Output Value                     56 0A  
 
+```
+
+# Types of Input Filters
+```
+Block any of the following (Keywords, individual characters, whitespaces)
+Modify the input to make it safe (Encoding, escaping  key chars, or stripping away offending items and processing as normal)
+Create a whitelist of acceptable character ranges
 ```
 
 # Cool Examples
