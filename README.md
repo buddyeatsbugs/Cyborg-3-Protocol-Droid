@@ -20,6 +20,8 @@ Dynamic Query Execution ( 'SEL'||'ECT') , CHAR(83)+CHAR(69)+CHAR(76) , HEX(0x534
 Null Bytes Bypass
 Nested Expressions Bypass
 Truncation Bypass
+Custom Filter Bypasses (%0ASYS, S%FFS, "SYS", <<FOO>>)
+Non-Standard Entry Points Bypass (Adding arbritrary parameter names to requests, headers fields, 
 
 ```
 
