@@ -2,14 +2,14 @@
 
 # Bypasses
 ```
-URL Encoding
-Double URL Encoding
-UTF-8 Unicode Encoding
+URL Encoding                        %22
+Double URL Encoding                 %2522
+UTF-8 Unicode Encoding              
 UTF-16 Unicode Encoding
 Cyrillic Language Unicode Encoding
-Hex
+Hex                                 22
 Octal
-HTML Entity Encoding
+HTML Entity Encoding                &quot;
 CRLF %0D %0A Bypasses
 RFC Misimplementation bypasses
 Read the Manual Bypasses
