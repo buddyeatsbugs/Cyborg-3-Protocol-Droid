@@ -4,6 +4,8 @@
 ```
 URL Encoding                        %22
 Double URL Encoding                 %2522
+Escaping Characters                 \"
+Native Javascript Encoding          \x22
 UTF-8 Unicode Encoding              
 UTF-16 Unicode Encoding
 Cyrillic Language Unicode Encoding
