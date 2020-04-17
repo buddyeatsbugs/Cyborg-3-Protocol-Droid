@@ -11,7 +11,10 @@
 
 # White List
 ```
-
+if (!preg_match('/^[a-z]+$/i', (string) $_GET['xss']))
+{ // Something other than letters were provided!
+  die("This hacking attempt has been logged .."); //Abort Processing
+}
 ```
 
 
