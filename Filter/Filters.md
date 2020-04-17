@@ -6,7 +6,10 @@
 
 # Black List
 ```
-
+if(preg_match("/<!DOCTYPE/i", preg_replace("/\s/", '', $xml_string))) 
+{//DOCTYPE found
+  die('Invalid XML ...'); //Abort processing
+}
 ```
 
 # White List
